@@ -40,7 +40,7 @@ body {
     align-items: center;
 }
 .sub1 h2 {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* width: 100px; */
     /* text-align: center; */
     font-size: 25px;
@@ -65,7 +65,7 @@ body {
     justify-content: center;
     align-items: center;
     /* min-width: 342px; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
     flex-wrap: wrap;
     padding: 0 20px;
 }
