@@ -3,38 +3,52 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    min-width: 360px;
+}
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid green;
+}
 .container1 {
     display: flex;
+    width: 1000px;
+    min-width: 342px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     border: 1px solid black;
     background-color: rgb(147, 26, 26);
     border-radius: 20px;
     padding: 10px;
-    margin: 20px 200px 20px 200px;
+    margin: 20px 0 20px 0;
+    border: 1px solid black;
+    
 }
 .sub1 {
-    flex: 0.2;
-    margin: 5px;
+    /* flex: 0.1; */
+    margin: 0 auto;
     padding: 5px;
-    /* border: 1px solid red; */
     border-radius: 5px;
     height: 50px;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
 }
 .sub1 h2 {
-    /* border: 1px solid black; */
+    border: 1px solid black;
     /* width: 100px; */
     /* text-align: center; */
     font-size: 25px;
     color: white;
+    text-align: center;
 }
 .sub2 {
-    flex: 1;
-    /* border: 1px solid green; */
+    
 }
 .sub2 ul {
     display: flex;
@@ -44,25 +58,38 @@
     align-items: center;
     /* border: 1px solid black; */
     height: 100%;
+    
+}
+.sub2 ul li {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* min-width: 342px; */
+    border: 1px solid black;
+    flex-wrap: wrap;
+    padding: 0 20px;
 }
 .sub2 ul li a{
+    
     /* border: 1px solid black; */
     font-size: 20px;
     text-decoration: none;
     color: white;
     margin: 10px;
+    flex: 2;
 }
 .sub2 ul li a:hover {
     color: rgb(242, 242, 24);
     transition: 0.4s;
 }
 .sub3 {
-    flex: 0.3;
+    /* flex: 0.5; */
     /* border: 1px solid orange; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
 }
 .sub3 .i1,.i2,.i3 {
     font-size: 20px;
@@ -202,7 +229,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     border: 1px solid black;
-    margin: 40px 90px 0 90px;
+    margin: 40px 0 0 0;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-color: rgb(64, 57, 57);
