@@ -108,10 +108,10 @@
     transition: 0.4s;
 }
 
-@media (max-width: 430px){
+@media (max-width: 490px){
     body {
         flex-direction: column;
-        width: 430px;
+        width: 490px;
     }
     .container1 {
         flex-direction: column;
